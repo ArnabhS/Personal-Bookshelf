@@ -46,18 +46,18 @@ const BookSearchPage = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 h-full">
       <div className="flex justify-between items-center mb-4">
         <input
           type="text"
           value={query}
           onChange={handleInputChange}
-          className="border p-2 w-[85%] rounded text-black mr-2"
+          className="border p-2 w-[85%] rounded text-black mr-2  hover:shadow-white "
           placeholder="Search for a book"
         />
         <button
           onClick={handleSearchClick}
-          className="bg-orange-600 text-white p-2 rounded-lg mr-2"
+          className="bg-orange-600 text-white p-2 rounded-lg mr-1"
         >
           Search
         </button>
